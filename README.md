@@ -10,7 +10,7 @@
 
 </div>
 
-# Interface Gráfica para calculo da Área do Triangulo
+# Interface Gráfica para cálculo da Área do Triangulo
 
 <table>
 <tr>
