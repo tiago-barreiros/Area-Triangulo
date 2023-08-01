@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="227.0" prefWidth="534.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="330.0" layoutY="34.0" prefHeight="26.0" prefWidth="45.0" text="a = ?" textFill="#fff600">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="330.0" layoutY="73.0" prefHeight="26.0" prefWidth="45.0" text="b = ?" textFill="#fff600">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="330.0" layoutY="109.0" prefHeight="26.0" prefWidth="45.0" text="c = ?" textFill="#fff600">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="330.0" layoutY="186.0" prefHeight="26.0" prefWidth="45.0" text="Area:" textFill="#fff600">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="a" layoutX="382.0" layoutY="34.0" prefHeight="26.0" prefWidth="132.0" />
+      <TextField fx:id="b" layoutX="382.0" layoutY="74.0" prefHeight="26.0" prefWidth="132.0" />
+      <TextField fx:id="c" layoutX="382.0" layoutY="110.0" prefHeight="26.0" prefWidth="132.0" />
+      <Button layoutX="381.0" layoutY="149.0" mnemonicParsing="false" onAction="#actionCancelar" prefHeight="26.0" prefWidth="132.0" text="Calcular" />
+      <Label layoutX="383.0" layoutY="191.0" prefHeight="18.0" prefWidth="132.0" style="-fx-border-color: white;" textFill="#fbff00" />
+   </children>
+</AnchorPane>
